@@ -32,7 +32,18 @@ pip install -r requirements.txt
 ### Running sophie
 ``` bash
 python assistant_gui.py
+
 ```
+## Screenshots
+Sophie responding with general chat, set at "cheerful" mode. Bit over the top, but the prompts can be adjusted in the assistant_gui.py
+
+![Cheerful Sophie Response](screenshots/01.png)
+
+Sophie responding to any sentence with "tech news" in it. She retrieves 5 RSS feeds from a number of sources (randomised) and summarises them.
+
+![Sophie's Tech News](screenshots/02.png)
+
+
 ## 📌Roadmap
 
 - [x] Chat interface with PySide6  
